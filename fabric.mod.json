@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shieldbot",
+  "version": "${version}",
+  "name": "Shield Bot",
+  "description": "Carpet-style /player bots for shield-stun and stun-webbing practice. Bots don't hop when hit.",
+  "authors": ["mirko"],
+  "contributors": ["Fake-player code adapted from Carpet Mod by gnembon (MIT)"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": ["shieldbot.mixins.json"],
+  "depends": {
+    "minecraft": "1.21.11",
+    "fabricloader": ">=0.18.2",
+    "java": ">=21"
+  },
+  "breaks": {
+    "carpet": "*"
+  }
+}
